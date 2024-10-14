@@ -1,0 +1,231 @@
+a =  100
+b =  200
+suma = a + b
+print (suma)
+print("\n")
+
+
+cadena1 = "Open"
+cadena2 = "AI"
+res = cadena1 + " " + cadena2
+print(res)
+print("\n")
+
+
+base = 15
+altura = 2
+area = base * altura
+print(area)
+print("\n")
+
+
+num = 100
+if num % 2 == 0:
+    print("par")
+else:
+    print("impar")
+print("\n")
+
+
+num = 6
+fact = 1
+for i in range(1, num + 1):
+    fact *= i
+    print(fact)
+print("\n")
+
+
+
+
+lista = [-10, -5, -3, -1, 0]
+resu = max(lista)
+print(resu)
+print("\n")
+
+
+
+celsius = -10
+fahrenheit = (celsius * 9/5) + 32
+print(fahrenheit)
+print("\n")
+
+
+
+num = 13
+impar = num % 2 != 0
+print(impar)
+print("\n")
+
+
+
+cadena = "mississippi"
+caracter = "s"
+contar = cadena.count(caracter)
+print(contar)
+print("\n")
+
+
+
+lista = [5, -5, 10, -10]
+suma = sum(lista)
+print(suma)
+print("\n")
+
+
+inicio = 10
+fin = 20
+listpares = [i for i in range(inicio, fin+1) if i % 2 == 00]
+print(listpares)
+print("\n")
+
+
+
+lista = [100, 200, 300, 400]
+prom = sum(lista) / len(lista)
+print(prom)
+print("\n")
+
+
+
+cadena = "openAI"
+cadena_invertida = cadena[::-1]
+print(cadena_invertida)
+print("\n")
+
+
+
+lista = [100, 200, 50, 300]
+minimo = min(lista)
+print(minimo)
+print("\n")
+
+
+
+palabra = "ana"
+pal = palabra == palabra[::-1]
+print(pal)
+print("\n")
+
+
+
+oracion = "me gusta programar en python"
+numpalabras = len(oracion.split())
+print(numpalabras)
+print("\n")
+
+
+
+base = 10
+exponente = 0
+res = base ** exponente
+print(res)
+print("\n")
+
+
+kilometros = 42.195
+millas = kilometros * 0.621371
+print(round(millas, 4))
+print("\n")
+
+
+
+lista = [10, 20, 30]
+cuadrados = [x**2 for x in lista]
+print(cuadrados)
+print("\n")
+
+
+lista = [100, 50, 75, 25]
+ordenada = sorted(lista)
+print(ordenada)
+print("\n")
+
+
+
+lista = [100]
+unicos = len(set(lista))
+print(unicos)
+print("\n")
+
+
+
+numero = 9999
+suma = sum(int(digito) for digito in str(numero))
+print(suma)
+print("\n")
+
+
+
+cadena = "openAI"
+mayus = cadena.upper()
+print(mayus)
+print("\n")
+
+
+
+lista = [5, 5, 5, 5, 5]
+unicos = list(set(lista))
+print(unicos)
+print("\n")
+
+
+
+
+cadena = "examen"
+conteo = cadena.count('e')
+print(conteo)
+print("\n")
+
+
+n = 10
+def fibonacci(n):
+    secuencia = [0, 1]
+    for i in range(2, n):
+        secuencia.append(secuencia[i -1] + secuencia[i - 2])
+        return secuencia
+    
+    resul_fibonacci = fibonacci(n)
+    print(resul_fibonacci)
+    print("\n")
+
+
+
+    cadena = "open AI"
+    resul = cadena.strip().replace("", "")
+    print(resul)
+    print("\n")
+
+
+
+    inicio = 10
+    fin = 30
+    rango = inicio if inicio >= 10 and inicio <= 30 else None
+    print(rango)
+    print("\n")
+
+
+
+    diccionario = ("uno": 1, "dos": 2)
+    resultado = {v: k for k, v in diccionario.items()}
+    print(resultado)
+    print("\n")
+
+
+
+    lista = []
+    resul = len(lista)
+    print(resul)
+    print("\n")
+
+
+
+    diccionario = {100: "uno", 200: "dos"}
+    suma = sum(diccionario.keys())
+    print(suma)
+    print("\n")
+
+
+
+    lista = ["examen", "python"]
+mayusculas = [elemento.upper() for elemento in lista]
+print(mayusculas)
